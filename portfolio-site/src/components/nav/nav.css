@@ -1,0 +1,11 @@
+.navContainer {
+    display: flex;
+}
+
+.nav-left {
+    flex: 1;
+}
+
+.nav-right {
+    flex: 1;
+}
