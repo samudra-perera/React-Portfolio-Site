@@ -6,7 +6,6 @@ function App() {
       <div> 
         <Nav /> 
         <Landing />
-      
       </div>
   );
 }

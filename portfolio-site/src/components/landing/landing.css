@@ -23,10 +23,24 @@
 
 .landing-container-left {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .landing-container {
     padding: 3em 2em;
+}
+
+button.project-button {
+    padding: .5em 3em;
+    background: rgb(49, 50, 54);
+    color: rgb(255, 255, 255);
+    border-radius: .25em;
+    border: none;
+    margin-top: 1.75em;
+    font-size: 1.25em;
+}
+
+button.project-button:hover {
+    cursor: pointer;
+    background-color: black;
 }
