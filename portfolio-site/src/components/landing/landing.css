@@ -1,6 +1,6 @@
 .landing-container {
     background-color: #FDD93D;
-    width: 50vw;
+    width: 60vw;
     margin: 0 auto;
     display: flex;
 }
@@ -43,4 +43,20 @@ button.project-button {
 button.project-button:hover {
     cursor: pointer;
     background-color: black;
+}
+
+p.landing-blurb {
+    font-weight: 200;
+    font-size: 1.25em;
+}
+
+h1.landing-title {
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    padding-bottom: .5em;
+    font-weight: bold;
+}
+
+.cursor {
+    animation: blink 1s linear infinite forwards;
 }
