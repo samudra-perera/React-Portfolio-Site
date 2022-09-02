@@ -34,7 +34,7 @@ const Nav = () => {
                 <div className='nav-right-anchor-container'>
                     <a className='about-me' href='#about-me'>About Me</a>
                     <a className='projects' href='#projects'>Projects</a>
-                    <a className='resume' href='https://www.canva.com/design/DAFHfQnm6Y4/EjTJul_FeVZ_k5fHgotXGQ/view?utm_content=DAFHfQnm6Y4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink'>Resume</a>
+                    <a className='resume' href='https://www.canva.com/design/DAFHfQnm6Y4/EjTJul_FeVZ_k5fHgotXGQ/view?utm_content=DAFHfQnm6Y4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink' target='_blank' rel="noreferrer">Resume</a>
                 </div>
             </div>
         </div>

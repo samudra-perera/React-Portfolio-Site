@@ -1,0 +1,32 @@
+.landing-container {
+    background-color: #FDD93D;
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+}
+
+.landing-container-left {
+    flex: 1;
+}
+
+.landing-container-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.landing-container-right img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.landing-container-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-container {
+    padding: 3em 2em;
+}
