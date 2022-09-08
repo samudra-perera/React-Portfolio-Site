@@ -1,0 +1,30 @@
+.skillsContainer {
+    width: 60vw;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 2em 2em;
+    background-color: #ffe4bc;
+
+}
+
+.skills-row-one {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2em;
+}
+
+.skill-logo {
+    width: 5em;
+    height: auto;
+}
+
+.skills-header-container {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.skills-row-two {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2em;
+}

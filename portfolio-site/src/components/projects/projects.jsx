@@ -5,6 +5,17 @@ const Projects = () => {
     return (
         <div>
             <h1>Projects</h1>
+            <div>
+                <ProjCard/>
+            </div>
+        </div>
+    )
+}
+
+const ProjCard = () => {
+    return (
+        <div>
+
         </div>
     )
 }

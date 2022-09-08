@@ -3,7 +3,7 @@
     width: 60vw;
     margin: 0 auto;
     display: flex;
-    padding: 3em 2em;
+    padding: 2em 0;
 }
 
 .aboutMe-left {
@@ -12,6 +12,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    padding-right: 2em;
 }
 
 h1.aboutMe-header {
@@ -30,10 +31,11 @@ img.samudraBitmoji {
     padding: 2em;
     background: #bebcbc;
     border-radius: 2em;
+    margin-left: 2em;
 }
 
 .aboutMe-card {
     background: #fbfbfb;
     padding: 2em;
-    border-radius: 2em;
+    border-radius: 1em;
 }
