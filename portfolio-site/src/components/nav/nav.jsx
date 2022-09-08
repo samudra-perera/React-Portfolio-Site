@@ -17,13 +17,13 @@ const Nav = () => {
                     <a className='linkedIn' href='https://www.linkedin.com/in/samudraperera/' target='_blank' rel='noreferrer'>
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
-                    <a className='Github' href='https://github.com/samudra-perera'>
+                    <a className='Github' href='https://github.com/samudra-perera' target='_blank' rel='noreferrer'>
                         <i class="fa-brands fa-github"></i>
                     </a>
-                    <a className='Twitter' href='https://twitter.com/TheRealSamudra'>
+                    <a className='Twitter' href='https://twitter.com/TheRealSamudra' target='_blank' rel='noreferrer'>
                         <i class="fa-brands fa-twitter"></i>
                     </a>
-                    <a className='Goodreads' href='https://www.goodreads.com/user/show/151382546-samudra-perera'>
+                    <a className='Goodreads' href='https://www.goodreads.com/user/show/151382546-samudra-perera' target='_blank' rel='noreferrer'>
                         <i class="fa-brands fa-goodreads"></i>
                     </a>
                 </div>

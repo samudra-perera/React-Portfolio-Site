@@ -7,7 +7,7 @@
 }
 
 .aboutMe-left {
-    flex: 1;
+    flex: 2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,5 +26,14 @@ img.samudraBitmoji {
 }
 
 .aboutMe-right {
-    flex: 1;
+    flex: 4;
+    padding: 2em;
+    background: #bebcbc;
+    border-radius: 2em;
+}
+
+.aboutMe-card {
+    background: #fbfbfb;
+    padding: 2em;
+    border-radius: 2em;
 }
