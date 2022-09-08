@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 import './landing.css'
 import landing from '../../img/landing.png'
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
@@ -21,7 +21,7 @@ const Landing = () => {
                 </div>
             </div>
             <div className="landing-container-right">
-                <img src={landing} alt='Person '/>
+                <img src={landing} alt='Person doing work'/>
             </div>
         </div>
     )
