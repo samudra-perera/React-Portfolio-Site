@@ -3,8 +3,10 @@ import './projects.css'
 
 const Projects = () => {
     return (
-        <div>
-            <h1>Projects</h1>
+        <div className="projects-container" id='projects'>
+            <div>
+                <h1 className="Projects-header">Projects</h1>
+            </div>
             <div>
                 <ProjCard/>
             </div>
@@ -12,10 +14,10 @@ const Projects = () => {
     )
 }
 
-const ProjCard = () => {
+const ProjCard = (props) => {
     return (
-        <div>
-
+        <div className="card-container">
+            <h2>Yo</h2>
         </div>
     )
 }
