@@ -1,0 +1,45 @@
+h1.Projects-header {
+    text-align: center;
+}
+
+h3.card-header {
+    padding: 1em 0 0 0;
+}
+
+div#projects {
+    background-color: #fbfbfb;
+    width: 60vw;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+.card-container-main {
+    display: flex;
+}
+
+.card-container {
+    padding: 1em;
+    max-width: 27%;
+    background: #fff;
+    border-radius: 1em;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.5px solid #e7e7e7;
+    padding-top: 0.7em;
+}
+
+span.card-footer-span {
+    padding-left: .5em;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+p.card-para {
+    padding-bottom: 3em;
+}
