@@ -1,5 +1,6 @@
 h1.Projects-header {
     text-align: center;
+    margin-bottom: 1em;
 }
 
 h3.card-header {
@@ -15,13 +16,17 @@ div#projects {
 
 .card-container-main {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .card-container {
-    padding: 1em;
+    padding: 1em 1em 2.25em 1em;
     max-width: 27%;
     background: #fff;
     border-radius: 1em;
+    margin-bottom: 2em;
 }
 
 .card-footer {
@@ -41,5 +46,10 @@ span.card-footer-span {
 }
 
 p.card-para {
-    padding-bottom: 3em;
+    min-height: 50%;
+}
+
+.card-main-info {
+    height: 80%;
+    padding-bottom: 2em;
 }
