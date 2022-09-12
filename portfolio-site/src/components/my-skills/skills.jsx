@@ -26,7 +26,7 @@ const Skills = () => {
                 <img src={reactLogo} alt='React Logo' className="skill-logo"/>
             </div>
             <div className="skills-row-two">
-            <img src={node} alt='Node Logo' className="skill-logo"/>
+                <img src={node} alt='Node Logo' className="skill-logo"/>
                 <img src={postgres} alt='PostgreSQL Logo' className="skill-logo"/>
                 <img src={figma} alt='Figma Logo' className="skill-logo"/>
                 <img src={ai} alt='Adobe Illustrator Logo' className="skill-logo"/>

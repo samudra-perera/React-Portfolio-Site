@@ -17,7 +17,7 @@ const Landing = () => {
                 <div className="landing-container-left-text">
                     <h1 className="landing-title">I{text} <Cursor /></h1>
                     <p className="landing-blurb">"I'm Samudra, thanks for checking my website out! To see some of my work click below."</p>
-                    <button className="project-button">Projects</button>
+                    <a className="project-button" href='#projects'>Projects</a>
                 </div>
             </div>
             <div className="landing-container-right">

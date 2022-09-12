@@ -30,7 +30,7 @@
     padding: 3em 2em;
 }
 
-button.project-button {
+a.project-button {
     padding: .5em 3em;
     background: rgb(49, 50, 54);
     color: rgb(255, 255, 255);
@@ -40,7 +40,7 @@ button.project-button {
     font-size: 1.25em;
 }
 
-button.project-button:hover {
+a.project-button:hover {
     cursor: pointer;
     background-color: black;
 }
@@ -48,6 +48,7 @@ button.project-button:hover {
 p.landing-blurb {
     font-weight: 200;
     font-size: 1.25em;
+    margin-bottom: 1.25em;
 }
 
 h1.landing-title {
