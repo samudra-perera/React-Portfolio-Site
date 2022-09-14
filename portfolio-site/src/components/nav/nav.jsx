@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import {Link} from 'react-scroll'
 import { Spring, animated } from 'react-spring'
 import './nav.css'
 import Logo from '../../img/logo.png'
@@ -49,8 +50,9 @@ const Nav = () => {
                     <div className='nav-right'>
                         <div className='nav-right wrapper'>
                             <div className='nav-right-anchor-container'>
-                                <a className='about-me' href='#about-me'>About Me</a>
-                                <a className='projects' href='#projects'>Projects</a>
+                                <Link className='about-me' to='about-me' spy={true} smooth= {true} offset={-50} duration={500}>About Me</Link>
+                                <Link className='skills' to='skills' spy={true} smooth= {true} offset={-50} duration={500}>Tools</Link>
+                                <Link className='projects' to='projects' spy={true} smooth= {true} offset={-50} duration={500}>Projects</Link>
                                 <a className='resume' href='https://www.canva.com/design/DAFHfQnm6Y4/EjTJul_FeVZ_k5fHgotXGQ/view?utm_content=DAFHfQnm6Y4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink' target='_blank' rel="noreferrer">Resume</a>
                             </div>
                         </div>

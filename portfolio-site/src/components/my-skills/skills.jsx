@@ -13,7 +13,7 @@ import js from '../../img/javascript.png'
 
 const Skills = () => {
     return (
-        <div className="skillsContainer">
+        <div className="skillsContainer" id="skills">
             <div className="skills-header-container">
                 <h1 className="skills-header">My Tools</h1>
             </div>
