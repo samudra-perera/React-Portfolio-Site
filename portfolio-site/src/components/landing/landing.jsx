@@ -11,6 +11,7 @@ const Landing = () => {
         deleteSpeed: 50,
         delaySpeed: 1000
         })
+        
     return (
         <div className="landing-container">
             <div className="landing-container-left">
