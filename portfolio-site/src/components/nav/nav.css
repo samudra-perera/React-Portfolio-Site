@@ -1,8 +1,10 @@
 .navContainer {
     display: flex;
-    height: 100px;
+    height: 70px;
     width: 60vw;
     margin: 0 auto;
+    background: #fbfbfb;
+    padding: 0em 2em 0em 2em;
 }
 
 .nav-left {
@@ -68,4 +70,10 @@ span.nameTitle {
 
 .nav-left-social-links a {
     padding: .15em;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }

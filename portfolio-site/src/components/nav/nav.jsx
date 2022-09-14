@@ -1,9 +1,19 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { Spring, animated } from 'react-spring'
 import './nav.css'
 import Logo from '../../img/logo.png'
 
 const Nav = () => {
+    const [sticky, setSticky] = useState(false)
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setSticky(window.scrollY > 10)
+        }
+        window.addEventListener('scroll', handleScroll)
+        return () => window.removeEventListener('scroll', handleScroll)
+    })
+
   return (
     <Spring
         from={{ opacity: 0}}
@@ -11,8 +21,7 @@ const Nav = () => {
         config={{duration: 1000}}
     >
         { props => (
-            <animated.div style={props}>
-                <div className='navContainer'>
+            <animated.nav style={props} className={`${sticky ? 'sticky navContainer' : 'navContainer'}`}>
                     <div className='nav-left'>
                         <div className='nav-left wrapper'>
                             <div className='nav-left-home'>
@@ -46,8 +55,7 @@ const Nav = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-            </animated.div>
+            </animated.nav>
         )}
 
     </Spring>
