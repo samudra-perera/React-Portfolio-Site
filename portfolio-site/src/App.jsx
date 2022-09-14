@@ -7,11 +7,11 @@ import Skills from "./components/my-skills/skills";
 function App() {
   return (
       <div> 
-        <Nav/> 
-        <Landing/>
+        <Nav/>
+        <Landing/> 
         <AboutMe/>
-        <Skills/>
         <Projects/>
+        <Skills/>
       </div>
   );
 }
