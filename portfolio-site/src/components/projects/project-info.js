@@ -18,7 +18,7 @@ const projectList = [
     {
         projectNumber: '7',
         title: 'The Recipe Book',
-        description: 'A fullstack application where users can create and find and store their favourite recipes',
+        description: 'Full stack web application with authentication where users create accounts, upload, find and favourite recipes to try out later',
         github: 'https://github.com/samudra-perera/The-Recipe-Book',
         hostedLink: 'google.com'
     },

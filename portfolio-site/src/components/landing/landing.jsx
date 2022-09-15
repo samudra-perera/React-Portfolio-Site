@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './landing.css'
 import landing from '../../img/landing.png'
+import {Link} from 'react-scroll'
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { useSpring, animated} from "react-spring";
 
@@ -40,7 +41,7 @@ const LandingWriter = () => {
                     <div className="landing-container-left-text">
                         <h1 className="landing-title">I{text} <Cursor /></h1>
                         <p className="landing-blurb">"I'm Samudra, thanks for checking my website out! To see some of my work click below."</p>
-                        <a className="project-button" href='#projects'>Projects</a>
+                        <Link className='project-button' to='projects' spy={true} smooth= {true} offset={-50} duration={500}>Projects</Link>
                     </div>
                 </div>
                 <div className="landing-container-right">
@@ -53,3 +54,4 @@ const LandingWriter = () => {
 
 
 export default Landing
+
