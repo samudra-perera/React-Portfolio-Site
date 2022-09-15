@@ -61,3 +61,24 @@ h1.landing-title {
 .cursor {
     animation: blink 1s linear infinite forwards;
 }
+
+@media screen and (max-width: 1400px) {
+    .landing-container {
+        width: 90vw
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .landing-container {
+        flex-direction: column-reverse;
+    }
+
+    .landing-container-left-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    a.project-button {
+        text-align: center;
+    }
+}

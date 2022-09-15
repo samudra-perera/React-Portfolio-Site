@@ -28,3 +28,39 @@
     justify-content: space-evenly;
     padding-bottom: 2em;
 }
+
+@media screen and (max-width: 1400px) {
+    .skillsContainer {
+        width: 90vw
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .skill-logo {
+        width: 4em;
+    }
+
+    .skillsContainer {
+        padding: 1.5em 1.5em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .skill-logo {
+        width: 3.5em;
+    }
+
+    .skills-row-one, .skills-row-one, .skills-header-container {
+        padding-bottom: 1.5em;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .skill-logo {
+        width: 3em;
+    }
+
+    .skills-row-one, .skills-row-one, .skills-header-container {
+        padding-bottom: 1em;
+    }
+}

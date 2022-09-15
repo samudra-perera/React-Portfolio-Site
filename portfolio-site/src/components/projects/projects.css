@@ -53,3 +53,24 @@ p.card-para {
     height: 80%;
     padding-bottom: 2em;
 }
+
+@media screen and (max-width: 1400px) {
+    div#projects {
+        width: 90vw
+    }
+}
+
+@media screen and (max-width: 400px) {
+    div#projects {
+        width: 90vw
+    }
+
+    .card-container-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-container {
+        max-width: 80%;
+    }
+}

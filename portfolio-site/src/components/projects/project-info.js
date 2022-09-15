@@ -10,7 +10,7 @@ const projectList = [
     {
         projectNumber: '8',
         title: 'React Portfolio Site',
-        description: 'A portfolio site made with react using ES6 syntax and best practices',
+        description: 'A full responsive portfolio site made from scratch using react and react hooks using ES6 syntax and best practices',
         github: 'https://github.com/samudra-perera/React-Portfolio-Site',
         hostedLink: 'google.com'
     }, 
