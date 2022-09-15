@@ -35,7 +35,7 @@ const LandingWriter = () => {
 
     return (
         <animated.div style={anim}>
-            <div className="landing-container">
+            <div className="landing-container" id="landing">
                 <div className="landing-container-left">
                     <div className="landing-container-left-text">
                         <h1 className="landing-title">I{text} <Cursor /></h1>

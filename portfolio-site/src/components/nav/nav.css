@@ -50,6 +50,10 @@ a.nav-left-img {
     justify-content: flex-end;
 }
 
+.nav-right.wrapper a {
+    padding: 1em;
+}
+
 .nav-right-anchor-container a{
     padding: .35em;
     font-size: 1.15rem;
@@ -76,4 +80,64 @@ span.nameTitle {
     position: sticky;
     top: 0;
     z-index: 100;
+}
+
+.nav-right-anchor-container a {
+    cursor: pointer;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .navContainer {
+        width: 90vw
+    }
+}
+
+@media screen and (max-width: 765px){
+    .nav-right {
+        display: none;
+    }
+
+    .nav-left {
+        justify-content: space-around;
+        flex: 20;
+    }
+
+    .nav-links-mobile {
+        position: absolute;
+        display: block;
+        background-color: black;
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+
+    .nav-right.wrapper {
+        flex-direction: column;
+    }
+
+    .about-me,
+    .skills,
+    .resume,
+    .projects {
+        color: white;
+        text-align: center;
+        padding: 32px;
+        width: 100%;
+        transition: all 0.5s ease-out;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        flex: 1;
+        margin: auto;
+        font-size: 30px;
+        color: white;
+        background-color: #ed7e7e;
+        border: none;
+    }
 }
