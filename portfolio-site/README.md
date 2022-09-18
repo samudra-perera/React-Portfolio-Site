@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Personal Portfolio Webside
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Introduction 
 
+This is my personal portfolio website that was made from scratch, including all the styling, logos, and image assets. I created this website since my previous personal site was made from a static site generator (cargo.site) and the customizability was incredibly limited. The purpose of this site is for potential employers and recruiters to see my front-end development skills, learn about me, and link them to my previous projects. 
+
+**Link to project:** http://recruiters-love-seeing-live-demos.com/
+
+![alt tag](http://placecorgi.com/1200/650)
+
+## Application Goals
+
+- Smooth and Beautiful UX/U!
+- Animations
+- Display all the work I have completed thus far
+- Easy to modify in the future
+
+## Installation
+
+**Packages Used:** React Spring, React TypeWriter, React Scroll
+
+Prior to running this project on your machine please do the following in your terminal. 
+```
+npm install 
+```
 In the project directory, you can run:
 
-### `npm start`
+```
+npm start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+ 
+ ## How It's Made:
 
-### `npm test`
+**Tech used:** HTML, CSS, Javascript, ReactJS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Client Side**
 
-### `npm run build`
+The front end of this application is being rendered by the templating language EJS. The EJS is rendered using the database information as inputs. We have used for loops and forEach array methods to iterate through the database responses and render the information to the EJS templates.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Further Optimizations
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+After completing the project there are some optimization we would do. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Slight Change to the styling
 
-### `npm run eject`
+2. SEO Optimization
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Future Consideration
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Adding a contact form, still unsure about the effectiveness of these forms
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Lessons Learned:
+Building this project from scratch taught me a lot about UX/UI design. It also taught me the effectiveness of designing UI components and how it increases the modularity of the code. I also learned to add animations using React Hooks to enhance the experience of the visitor.  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Recent Projects:
+Take a look at some of my other portfolio projects:
 
-## Learn More
+**Just Journal:** https://github.com/samudra-perera/Journal-App-Full-Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**To Do List** https://github.com/samudra-perera/To-Do-LIst-CRUD-App
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**The Recipe Book** https://github.com/samudra-perera/The-Recipe-Book
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
