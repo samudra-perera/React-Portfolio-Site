@@ -12,7 +12,7 @@ This is my personal portfolio website that was made from scratch, including all 
 
 ## Application Goals
 
-- Smooth and Beautiful UX/U!
+- Smooth and Beautiful UX/UI
 - Animations
 - Display all the work I have completed thus far
 - Easy to modify in the future
@@ -52,6 +52,8 @@ After completing the project there are some optimization we would do.
 1. Slight Change to the styling
 
 2. SEO Optimization
+
+3. Ability to filter projects based on language used 
 
 ## Future Consideration
 

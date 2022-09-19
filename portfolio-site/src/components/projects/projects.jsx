@@ -25,14 +25,16 @@ const ProjCard = (props) => {
                 <p className="card-para">{description}</p>
             </div>
             <div className="card-footer">
-                <a className="card-github" href={github}>
+                <a className="card-github" href={github} target='_blank' rel="noreferrer">
                     <i class="fa-brands fa-github"></i>
                     <span className="card-footer-span">Repo</span>
                 </a>
-                <a className="card-hosted-link" href={hostedLink}>
+            {hostedLink !== null && 
+                <a className="card-hosted-link" href={hostedLink} target='_blank' rel="noreferrer">
                     <i class="fa-solid fa-link"></i>
                     <span className="card-footer-span">Link</span>
                 </a>
+            }
             </div>
         </div>
     )
@@ -40,7 +42,7 @@ const ProjCard = (props) => {
 
 const ProjectMap = () => {
     return (
-        projectList.map((project) => (
+        projectList.map(project => (
                 <ProjCard 
                 projectNumber = {project.projectNumber}
                 title = {project.title}
