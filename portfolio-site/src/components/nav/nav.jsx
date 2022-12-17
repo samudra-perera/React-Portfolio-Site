@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import {Link} from 'react-scroll'
+// import {Link} from 'react-scroll'
+import { Link } from 'react-router-dom'
 import { Spring, animated } from 'react-spring'
 import './nav.css'
 import Logo from '../../img/logo.png'
@@ -66,7 +67,7 @@ const NavComps = () => {
                 onClick={() => setIsMobile(false)}
             >
                 <div className='nav-right wrapper'>
-                        <Link className='about-me' to='about-me' spy={true} smooth= {true} offset={-50} duration={500} onClick={() => setIsMobile(false)}>About Me</Link>
+                        <Link className='about-me' to='/about' spy={true} smooth= {true} offset={-50} duration={500} onClick={() => setIsMobile(false)}>About Me</Link>
                         <Link className='skills' to='skills' spy={true} smooth= {true} offset={-50} duration={500} onClick={() => setIsMobile(false)}>Tools</Link>
                         <Link className='projects' to='projects' spy={true} smooth= {true} offset={-50} duration={500} onClick={() => setIsMobile(false)}>Projects</Link>
                         <a className='resume' href='https://www.canva.com/design/DAFHfQnm6Y4/EjTJul_FeVZ_k5fHgotXGQ/view?utm_content=DAFHfQnm6Y4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink' target='_blank' rel="noreferrer">Resume</a>

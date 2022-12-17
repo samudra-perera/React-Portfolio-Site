@@ -3,7 +3,9 @@ import Landing from './components/landing/landing';
 import AboutMe from "./components/about-me/about-me";
 import Projects from "./components/projects/projects";
 import Skills from "./components/my-skills/skills";
+import NewSkills from "./components/my-skills/NewSkills";
 import Footer from "./components/footer/footer";
+import React from "react";
 
 function App() {
   return (
@@ -11,7 +13,7 @@ function App() {
         <Nav/>
         <Landing/> 
         <AboutMe/>
-        <Skills/>
+        <NewSkills />
         <Projects/>
         <Footer/>
       </div>
