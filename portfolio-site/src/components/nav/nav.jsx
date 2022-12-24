@@ -41,7 +41,7 @@ const NavComps = () => {
             <div className='nav-left'>
                 <div className='nav-left wrapper'>
                     <div className='nav-left-home'>
-                        <Link className='nav-left-img' to='landing' spy={true} smooth= {true} offset={-50} duration={500}>
+                        <Link className='nav-left-img' to='/'>
                             <img className='logoTitile' src={Logo} alt='SamudraLogo'/>
                             <span className='nameTitle'>Samudra Perera</span>
                         </Link>
@@ -67,10 +67,10 @@ const NavComps = () => {
                 onClick={() => setIsMobile(false)}
             >
                 <div className='nav-right wrapper'>
-                        <Link className='about-me' to='/about' spy={true} smooth= {true} offset={-50} duration={500} onClick={() => setIsMobile(false)}>About Me</Link>
-                        <Link className='skills' to='skills' spy={true} smooth= {true} offset={-50} duration={500} onClick={() => setIsMobile(false)}>Tools</Link>
-                        <Link className='projects' to='projects' spy={true} smooth= {true} offset={-50} duration={500} onClick={() => setIsMobile(false)}>Projects</Link>
-                        <a className='resume' href='https://www.canva.com/design/DAFHfQnm6Y4/EjTJul_FeVZ_k5fHgotXGQ/view?utm_content=DAFHfQnm6Y4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink' target='_blank' rel="noreferrer">Resume</a>
+                        <Link className='about-me' to='/' spy={true} smooth= {true} offset={-50} duration={500} onClick={() => setIsMobile(false)}>About Me</Link>
+                        <Link className='skills' to='/projects' onClick={() => setIsMobile(false)}>Projects</Link>
+                        <Link className='projects' to='/work' onClick={() => setIsMobile(false)}>Work Experience</Link>
+                        {/* <a className='resume' href='https://www.canva.com/design/DAFHfQnm6Y4/EjTJul_FeVZ_k5fHgotXGQ/view?utm_content=DAFHfQnm6Y4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink' target='_blank' rel="noreferrer">Resume</a> */}
                 </div>
             </div>
             <button 
