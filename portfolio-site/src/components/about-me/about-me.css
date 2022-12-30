@@ -1,18 +1,10 @@
 .aboutMe-container {
-    background: #FFB100;
+    background: #fbfbfb;
     width: 100vw;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
     padding: 2em 4em 0em 0em;
-}
-
-.aboutMe-left {
-    flex: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    padding-right: 2em;
 }
 
 h1.aboutMe-header {
@@ -20,27 +12,10 @@ h1.aboutMe-header {
     margin-bottom: .5em;
     font-size: 2.25em;
     margin-left: 0.75em;
-    color: white;
+    color: black;
 }
 
-/* img.samudraBitmoji {
-    min-width: 100%;
-    flex-shrink: 1;
-}
 
-.aboutMe-right {
-    flex: 4;
-    padding: 2em;
-    background: #bebcbc;
-    border-radius: 2em;
-    margin-left: 2em;
-}
-
-.aboutMe-card {
-    background: #fbfbfb;
-    padding: 2em;
-    border-radius: 1em;
-} */
 
 @media screen and (max-width: 1400px) {
     .aboutMe-container {
@@ -76,8 +51,9 @@ h1.aboutMe-header {
 }
 
   .accordion {
-    max-width: 600px;
-    margin: 2rem auto;
+    max-width: 70vw;
+    margin: 0 auto;
+    border-top: 2px;
   }
   
   .accordion-title {
@@ -85,11 +61,10 @@ h1.aboutMe-header {
     flex-direction: row;
     justify-content: space-between;
     cursor: pointer;
-    background-color: #21aeca;
   }
   
   .accordion-title:hover {
-    background-color: #3ab4cc;
+    background-color: rgba(255, 166, 0, 0.227);
   }
   
   .accordion-title,
@@ -98,7 +73,7 @@ h1.aboutMe-header {
   }
   
   .accordion-content {
-    background-color: #39b9d2;
+    background-color: #fff;
   }
   
   @media screen and (max-width: 700px) {

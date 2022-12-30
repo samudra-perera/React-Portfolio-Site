@@ -1,35 +1,31 @@
-import React from 'react'
-import './about-me.css'
-import AboutDropDown from './AboutDropDown'
-import { QnA } from './QnA'
+import React from "react";
+import "./about-me.css";
+import AboutDropDown from "./AboutDropDown";
+import { QnA } from "./QnA";
 
 const AboutMe = () => {
-    return(
-        <div className='aboutMe-container' id='about-me'>
-            <div>
-                <h1 className='aboutMe-header'>About Me</h1>
-            </div>
-            <div className='about-accordian'>
-                {
-                    QnA.map((elem, index) => {
-                        return (
-                            <AboutDropDown 
-                            answer={elem.answer}
-                            question={elem.question}
-                            key={index} 
-                            />
-                        )
-                    })
-                }
-            </div>
-        </div>
-    )
-}
+  return (
+    <div className="aboutMe-container" id="about-me">
+      <h1 className="aboutMe-header">About Me</h1>
+      <div className="about-accordian">
+        {QnA.map((elem, index) => {
+          return (
+            <AboutDropDown
+              answer={elem.answer}
+              question={elem.question}
+              key={index}
+            />
+          );
+        })}
+      </div>
+    </div>
+  );
+};
 
-export default AboutMe
+export default AboutMe;
 
-
-{/* <div className='aboutMe-left'>
+{
+  /* <div className='aboutMe-left'>
 <img src={Hi} alt='samudra-bitmoji face' className='samudraBitmoji'/>
 </div>
 <div className='aboutMe-right'>
@@ -45,4 +41,5 @@ export default AboutMe
     Outside of tech, I enjoy playing sports, going to the gym, hanging out with friends, watching anime, and reading books.
     </p>
 </div>
-</div> */}
+</div> */
+}
