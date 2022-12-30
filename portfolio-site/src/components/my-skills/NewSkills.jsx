@@ -1,5 +1,6 @@
 import React from "react";
 import './skills.css'
+import Projects from "../projects/projects";
 
 const NewSkills = () => {
   return (
@@ -20,6 +21,7 @@ const NewSkills = () => {
           <a><li>Flask</li></a>
         </ul>
       </div>
+      <Projects />
     </div>
   );
 };

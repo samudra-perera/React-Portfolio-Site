@@ -7,6 +7,7 @@ import ErrorPage from './pages/ErrorPage';
 import Home from './pages/Home/Home';
 import Work from './pages/Work/Work';
 import ProjectPage from './pages/Projects/ProjectPage';
+import SoloProjectPage from './pages/Projects/SoloProjectPage';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,11 @@ const router = createBrowserRouter([
       }
     ]
   },
+  {
+    path: "/projects/:id",
+    element: <SoloProjectPage/>,
+    errorElement: <ErrorPage />
+  }
 ])
 
 

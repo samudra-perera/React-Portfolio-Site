@@ -6,7 +6,6 @@ const ProjectPage = () => {
   return (
     <div>
       <NewSkills />
-      <Projects />
     </div>
   );
 };

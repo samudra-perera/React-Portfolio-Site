@@ -1,7 +1,7 @@
 const QnA = [
     {
-        question: "An overview of myself",
-        answer: "Lorem Ipsum"
+        question: "Who am I?",
+        answer: "I am a civil turned software engineer based in the Greater Toronto Area. I graduated from the University of Waterloo’s Civil Engineering program in 2021 with a focus on structural engineering with a minor in management. As a natural-born tinkerer, engineering was the obvious choice of career for me. I love spending time working through problems, thinking about abstract topics, and imagining ways to apply new ideas in the real world (ie. my work term report on using blockchain to increase transparency in civil engineering). "
     },
     {
         question: "Why did I switch careers?",
