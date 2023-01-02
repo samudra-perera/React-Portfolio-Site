@@ -46,16 +46,16 @@ const NavComps = () => {
                         </Link>
                     </div>
                     <div className='nav-left-social-links'>
-                        <a className='linkedIn' href='https://www.linkedin.com/in/samudraperera/' target='_blank' rel='noreferrer'>
+                        <a className='linkedIn' href='https://www.linkedin.com/in/samudraperera/'>
                             <i class="fa-brands fa-linkedin"></i>
                         </a>
-                        <a className='Github' href='https://github.com/samudra-perera' target='_blank' rel='noreferrer'>
+                        <a className='Github' href='https://github.com/samudra-perera'>
                             <i class="fa-brands fa-github"></i>
                         </a>
-                        <a className='Twitter' href='https://twitter.com/TheRealSamudra' target='_blank' rel='noreferrer'>
+                        <a className='Twitter' href='https://twitter.com/TheRealSamudra'>
                             <i class="fa-brands fa-twitter"></i>
                         </a>
-                        <a className='Goodreads' href='https://www.goodreads.com/user/show/151382546-samudra-perera' target='_blank' rel='noreferrer'>
+                        <a className='Goodreads' href='https://www.goodreads.com/user/show/151382546-samudra-perera'>
                             <i class="fa-brands fa-goodreads"></i>
                         </a>
                     </div>

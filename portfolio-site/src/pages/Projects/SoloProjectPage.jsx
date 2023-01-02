@@ -1,8 +1,11 @@
 import React from 'react'
+import Nav from '../../components/nav/nav'
 
 const SoloProjectPage = () => {
   return (
-    <div>SoloProjectPage</div>
+    <div>
+        <Nav/>
+    </div>
   )
 }
 
