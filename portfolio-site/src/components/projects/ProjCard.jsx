@@ -10,8 +10,8 @@ const ProjCard = (props) => {
         <span className="card-proj-number">Project #{projectNumber}</span>
         <Link to={`/projects/${param}`}>
           <h3 className="card-header">{title}</h3>
+          <p className="card-para">{description}</p>
         </Link>
-        <p className="card-para">{description}</p>
       </div>
       <div className="card-footer">
         <a className="card-github" href={github}>

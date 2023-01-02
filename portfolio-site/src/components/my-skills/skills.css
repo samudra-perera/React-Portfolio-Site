@@ -7,6 +7,33 @@
 
 }
 
+button.language {
+    display: block;
+    padding: 0.4em .8em;
+    font-weight: 500;
+    font-size: 1em;
+    text-transform: lowercase;
+    transition: transform 0.2s ease-in-out;
+    background-color: var(--clr-bg-alt);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    border: 0;
+    cursor: pointer;
+    margin: .5em;
+}
+
+button.language:hover {
+    transform: translateY(-4px);
+    background-color: rgba(255, 166, 0, 0.408)
+}
+
+button.language.active {
+    background-color: rgba(255, 166, 0, 0.408);
+}
+
+h1.skills-header {
+    margin-bottom: .3em;
+}
+
 .skills-header-container {
     text-align: center;
     padding-bottom: 2em;
@@ -15,6 +42,8 @@
 ul.skills-list {
     list-style: none;
     display: flex;
+    width: 70vw;
+    margin: 0 auto;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
