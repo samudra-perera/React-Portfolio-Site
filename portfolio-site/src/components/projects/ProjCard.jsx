@@ -2,8 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const ProjCard = (props) => {
-  const { projectNumber, title, description, github, hostedLink, param } =
-    props;
+  const { projectNumber, title, description, github, hostedLink, param } = props;
   return (
     <div className="card-container">
       <div className="card-main-info">

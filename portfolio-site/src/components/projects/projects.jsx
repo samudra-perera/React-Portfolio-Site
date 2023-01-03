@@ -5,7 +5,7 @@ import ProjCard from "./ProjCard";
 
 const Projects = (props) => {
   const { filter } = props;
-  //Whenever the skills filter is set to null all projects will display, else it will only display projects that are within the project object stack
+  //Whenever the skills filter is set to null all projects will display, else it will only display projects that include that filter(ie programming language in the stack)
   if (filter) {
     return (
       <div className="projects-container" id="projects">
