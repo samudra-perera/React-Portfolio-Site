@@ -1,6 +1,6 @@
 .landing-container {
     background-color: #FDD93D;
-    width: 100vw;
+    width: 90vw;
     margin: 0 auto;
     display: flex;
 }
@@ -64,7 +64,7 @@ h1.landing-title {
 
 @media screen and (max-width: 1400px) {
     .landing-container {
-        width: 100vw
+        width: 90vw
     }
 }
 

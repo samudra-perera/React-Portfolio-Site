@@ -1,15 +1,16 @@
-.work-card-out {
-    height: 400px;
-    width: 500px;
+.work-card-out, .work-card-in {
+    height: 425px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 20px;
+    padding: 1em;
+    
 }
 
-.work-card-in {
-    height: 400px;
-    width: 500px;
-    background-color: blue;
+.resume-content {
+    overflow-y: auto;
 }
 
 .hidden {
@@ -17,11 +18,39 @@
 }
 
 h1.working-card-header {
-    padding: .5em 0 .75em 0;
+    padding: 1em 0 .75em 0;
 }
 
 img.work-card-img {
     width: 10em;
     height: 10em;
     padding-bottom: 1em;
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+h1.job-title {
+    text-align: center;
+    padding-bottom: .5em;
+}
+
+.resume-content {padding: 0 2em;}
+
+p.work-experience {
+    padding-bottom: .5em;
+}
+
+.working-card-container {
+    margin: 1em;
+}
+
+p.work-summary {
+    margin-bottom: 1em;
 }

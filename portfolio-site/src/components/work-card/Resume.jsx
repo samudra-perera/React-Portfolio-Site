@@ -1,24 +1,28 @@
-import React from 'react'
-import WorkCard from './WorkCard'
-import { resume } from './WorkExp'
+import React from "react";
+import WorkCard from "./WorkCard";
+import { resume } from "./WorkExp";
+import "./WorkCard.css";
 
 const Resume = () => {
-    //const {id, companyName, jobTitle, location, workPeriod, experience, whatILearned, img } = resume
   return (
-    <div>
-        <WorkCard 
-        jobTitle={resume[0].jobTitle}
-        companyName={resume[0].companyName}
-        key={resume[0].id}
-        location={resume[0].location}
-        workPeriod={resume[0].workPeriod}
-        experience={resume[0].experience}
-        whatILearned={resume[0].whatILearned}
-        img={resume[0].img}
-        colourCode={resume[0].colourCode}
-        />
+    <div className="resume-container">
+      {resume.map((experience) => {
+        return (
+          <WorkCard
+            key={experience.id}
+            companyName={experience.companyName}
+            location={experience.location}
+            workPeriod={experience.workPeriod}
+            whatILearned={experience.whatILearned}
+            experience={experience.experience}
+            img={experience.img}
+            colourCode={experience.colourCode}
+            jobTitle={experience.jobTitle}
+          />
+        );
+      })}
     </div>
-  )
-}
+  );
+};
 
-export default Resume
+export default Resume;

@@ -97,7 +97,7 @@ const resume = [
     {
         id: 7,
         companyName: 'SCS Consulting Group ltd.',
-        img: 'https://res.cloudinary.com/dkrjwbr8w/image/upload/v1672813286/SCS-LOGO-transparent-logo-1024x405-1_kiqdex.png',
+        img: 'https://res.cloudinary.com/dkrjwbr8w/image/upload/v1672828397/1519896829919_o99mtz.jpg',
         jobTitle: 'Civil Engineering Intern',
         location: 'Markham, ON',
         workPeriod: 'Jan 2017 - Apr 2017',
@@ -107,7 +107,7 @@ const resume = [
             '• Acquired familiarity with the OPSD, Region of York, the City of Markham, and OTM Book 7 specification and drawing standards'
         ],
         whatILearned: 'Something something else',
-        colourCode: ['white', '']
+        colourCode: ['white', '#1E4561']
     },
     {
         id: 8,
@@ -122,7 +122,7 @@ const resume = [
             '• Restored abused sampling equipment to a working state, saving over $3000 in replacement costs'
         ],
         whatILearned: 'Something something else',
-        colourCode: []
+        colourCode: ['white', '#BF3331']
     }
 ]
 
