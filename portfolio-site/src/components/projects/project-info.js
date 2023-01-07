@@ -1,22 +1,42 @@
 const projectList = [
     {
-        projectNumber: '9',
+        projectNumber: '11',
         title: 'Just Journal',
         description: 'A fullstack web application with authentication where users create public or private journals and share with their friends.',
-        github: 'https://github.com/samudra-perera/Journal-App-Full-Stack',
+        github: 'https://github.com/samudra-perera/JustJournal',
         hostedLink: null,
-        stack: ['React', 'Node.js', 'Express', 'Mongodb', 'Javascript'],
+        stack: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Javascript'],
+        param: 'journal'
+    },
+    
+    {
+        projectNumber: '10',
+        title: 'Tenessee Harm Reduction Website',
+        description: 'Redesign of the Tenessee Harm Reduction Website from a wordpress site into a NextJS application using the wordpress API to query previous posts',
+        github: 'https://github.com/samudra-perera/JustJournal',
+        hostedLink: null,
+        stack: ['React', 'NextJS'],
         param: 'journal'
     }, 
 
     {
-        projectNumber: '8',
+        projectNumber: '9',
         title: 'React Portfolio Site',
         description: 'A full responsive portfolio site made from scratch using react and react hooks using ES6 syntax and best practices',
-        github: 'https://github.com/samudra-perera/React-Portfolio-Site/tree/main/portfolio-site',
-        hostedLink: null,
+        github: 'https://github.com/samudra-perera/samudra-perera.github.io/tree/main/portfolio-site',
+        hostedLink: 'https://samudra-perera.github.io/',
         stack: ['React', 'Javascript'],
         param: 'portfolio'
+    }, 
+
+    {
+        projectNumber: '8',
+        title: 'CS50 Course Work',
+        description: '10 Week Introduction to Computer Science Course offered by Harvard University and all the completed projects',
+        github: 'https://github.com/samudra-perera/cs50-course-work',
+        hostedLink: null,
+        stack: ['C/C++', 'Python', 'SQL', 'HTML/CSS', 'Javascript', 'Flask'],
+        param: 'CS50'
     }, 
 
     {
@@ -24,8 +44,8 @@ const projectList = [
         title: 'The Recipe Book',
         description: 'Full stack web application with authentication where users create accounts, upload, find and favourite recipes to try out later',
         github: 'https://github.com/samudra-perera/The-Recipe-Book',
-        hostedLink: 'google.com',
-        stack: ['HTML/CSS', 'Javascript', 'Node.js', 'Mongodb', 'EJS', 'Express', 'Javascript'],
+        hostedLink: null,
+        stack: ['HTML/CSS', 'Javascript', 'Node.js', 'MongoDB', 'EJS', 'Express.js', 'Javascript'],
         param: 'recipe'
     },
 
@@ -35,7 +55,7 @@ const projectList = [
         description: 'A single page CRUD application that allows users to track and complete tasks.',
         github: 'https://github.com/samudra-perera/To-Do-LIst-CRUD-App',
         hostedLink: null,
-        stack: ['HTML/CSS', 'Javascript', 'Node.js', 'Mongodb', 'EJS', 'Express', 'Javascript'],
+        stack: ['HTML/CSS', 'Javascript', 'Node.js', 'MongoDB', 'EJS', 'Express.js', 'Javascript'],
         param: 'todo'
     },
 
@@ -45,7 +65,7 @@ const projectList = [
         description: 'An API that returns any MVP winner and their stats from the year 2000 to present as JSON.',
         github: 'https://github.com/samudra-perera/Example-Server-BBall-Heroku',
         hostedLink: 'https://basketball-api-100devs.herokuapp.com/',
-        stack: ['HTML/CSS', 'Javascript', 'Node.js'],
+        stack: ['HTML/CSS', 'Javascript', 'Node.js', 'Express.js'],
         param: 'nba'
     },
 

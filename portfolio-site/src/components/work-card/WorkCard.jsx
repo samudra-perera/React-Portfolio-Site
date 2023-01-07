@@ -6,7 +6,6 @@ const WorkCard = (props) => {
   //The state for the mouse hover
   const [isHovering, setIsHovering] = useState(false);
   const {
-    id,
     companyName,
     jobTitle,
     location,

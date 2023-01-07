@@ -42,7 +42,7 @@ h1.skills-header {
 ul.skills-list {
     list-style: none;
     display: flex;
-    width: 70vw;
+    width: 50vw;
     margin: 0 auto;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -51,6 +51,12 @@ ul.skills-list {
 @media screen and (max-width: 1400px) {
     .skillsContainer {
         width: 90vw
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .ul.skills-list {
+        width: 60vw
     }
 }
 

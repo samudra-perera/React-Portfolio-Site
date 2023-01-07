@@ -1,7 +1,7 @@
 .navContainer {
     display: flex;
     height: 70px;
-    width: 100vw;
+    width: 70vw;
     margin: 0 auto;
     background: #fbfbfb;
     padding: 0em 2em 0em 2em;
@@ -86,7 +86,6 @@ span.nameTitle {
     position: sticky;
     top: 0;
     z-index: 100;
-    width: 100vw;
 }
 
 .nav-right-anchor-container a {

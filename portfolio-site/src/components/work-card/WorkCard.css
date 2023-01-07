@@ -34,6 +34,7 @@ img.work-card-img {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: flex-start;
+    width: 90vw;
 }
 
 h1.job-title {
@@ -53,4 +54,29 @@ p.work-experience {
 
 p.work-summary {
     margin-bottom: 1em;
+}
+
+@media screen and (max-width: 1350px) {
+    .resume-container {
+        width: 90vw
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .work-card-out, .work-card-in {
+        width: 320px;
+        height: 340px;
+        font-size: 90%;
+    }
+
+    .img.work-card-img {
+        width: 8em;
+        height: 8em;
+        padding-bottom: .8em;
+    }
+
+    p.work-summary {
+        margin-bottom: .8em;
+    }
+
 }

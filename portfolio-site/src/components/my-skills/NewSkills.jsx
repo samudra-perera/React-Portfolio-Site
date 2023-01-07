@@ -19,6 +19,9 @@ const NewSkills = () => {
       "Node.js",
       "Express.js",
       "Flask",
+      'MongoDB',
+      'SQL',
+      'PostgreSQL'
     ],
   });
 
