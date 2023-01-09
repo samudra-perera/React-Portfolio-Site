@@ -1,4 +1,4 @@
-const projectList = [
+export const projectList = [
     {
         projectNumber: '11',
         title: 'Just Journal',
@@ -109,5 +109,3 @@ const projectList = [
         param: 'rps'
     }
 ]
-
-module.exports = {projectList}

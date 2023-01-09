@@ -74,7 +74,11 @@ const WorkCard = (props) => {
       <div
         className={isHidden(isHovering)}
         onMouseLeave={setOutValue}
-        style={{ background: checkSecondaryColour(colourCode) }}
+        style={{ 
+          background: checkSecondaryColour(colourCode),
+          border: `1px solid ${checkWhite(colourCode)}`
+
+         }}
       >
         <h1 style={{ color: checkWhite(colourCode) }} className="job-title">
           {jobTitle}
@@ -85,7 +89,7 @@ const WorkCard = (props) => {
               style={{ color: checkWhite(colourCode) }}
               className="sumamry-heading"
             >
-              Things I learned
+              Time at {companyName}
             </h2>
             <p className="work-summary">{whatILearned}</p>
             <h2

@@ -1,4 +1,4 @@
-const resume = [
+export const resume = [
     {
         id: 1,
         companyName: '100Devs',
@@ -9,9 +9,10 @@ const resume = [
         experience: [
             '• Collaborated with a team of developers to build modern and responsive web applications using best practices',
             '• Built semantically structured full stack web applications',
-            '• Applied agile methodologies like SCRUM for project management'
+            '• Applied agile methodologies like SCRUM for project management',
+            '• Provided mentorship to junior bootcamp attendees on code and career related inquiries'
         ],
-        whatILearned: 'How to code?',
+        whatILearned: '100Devs is a Microsoft-sponsored self-paced 30-week boot camp that takes career transitioners from zero experience to job readiness. At 100Devs I learned all the skills necessary to transition from a civil engineer to a full-stack software developer, with an emphasis on the MERN stack.',
         colourCode: ['#4E65EC', 'white']
     },
     {
@@ -26,7 +27,7 @@ const resume = [
             '• Provided contract administration services such as field reviews, site visit reports, on-site meetings, and payment certification',
             '• Part of the team responsible for building and testing out the UI/UX for the new Sharepoint Portal for WSP Building Sciences Canada'
         ],
-        whatILearned: 'How to Code?',
+        whatILearned: 'WSP is the #1 ranked engineering design firm globally according to ENR (2022). At WSP my primary responsibilities were handling and providing value to clients on projects in building envelope design and construction management.',
         colourCode: ['#FD413B', 'white']
     },
     {
@@ -42,7 +43,7 @@ const resume = [
             '• Collaborated with senior management to develop marketing content to fuel growth and attract future business opportunities',
             '• Performed preliminary market research on updating the project management software to scale with MH Texas growth'
         ],
-        whatILearned: 'Something something', 
+        whatILearned: 'Morrison Hershfield is a globally recognized full-services engineering consulting firm. The Houston office was the first MH office in texas and operated similarly to a startup. On top of my responsibilities as a building envelope designer, I took part in developing marketing content and exploring productivity software to improve workflow efficiency.',
         colourCode: ['#02355E', 'white']
     },
     {
@@ -58,7 +59,7 @@ const resume = [
             '• Recommended alternative solutions to address failing existing infrastructure within time and budgetary constraints',
             '• Drafted the pavement drawings set using AutoCAD for the road resurfacing program'
         ],
-        whatILearned: 'Something Else',
+        whatILearned: 'The Town of Oakville is a small suburban area West of Toronto in the Halton Region. At the Town of Oakville, I was part of the road resurfacing team tasked with reconstructing and repaving deteriorated pavements.',
         colourCode: ['#024B89', 'white']
     },
     {
@@ -74,7 +75,7 @@ const resume = [
             '• Created and analyzed interference drawing which identified 6 unique interferences and over 100 potential instances of conflicts between sub-trades',
             '• Performed and presented research for a client to outfit a non-profit office development'
         ],
-        whatILearned: 'Something something',
+        whatILearned: 'Orlando Corporation is Canada\'s largest privately-owned industrial real estate developer and landlord. As an assistant project coordinator, I was tasked with overseeing the construction and tendering of the 50 Edgeware Rd industrial center and the Peel Children\'s Aid Society Mississauga Office.',
         colourCode: ['#FEBE37','white']
     },
     {
@@ -91,14 +92,14 @@ const resume = [
             '• Scheduled QA/QC personnel to ensure the construction specification were met',
             '• Updated senior inspector on a daily basis to ensure projects were completed safely and efficiently'
         ],
-        whatILearned: 'Something else',
+        whatILearned: 'The city of Brampton is a suburban city to the West of Toronto. At the city of Brampton, my role was to oversee the construction of various municipal projects such as road widening, side-walk construction, and stormwater pond cleanup.',
         colourCode: ['#035CA2', 'white']
     },
     {
         id: 7,
-        companyName: 'SCS Consulting Group ltd.',
+        companyName: 'SCS Consulting Group',
         img: 'https://res.cloudinary.com/dkrjwbr8w/image/upload/v1672828397/1519896829919_o99mtz.jpg',
-        jobTitle: 'Civil Engineering Intern',
+        jobTitle: 'Civil Engineering (Design) Intern',
         location: 'Markham, ON',
         workPeriod: 'Jan 2017 - Apr 2017',
         experience: [
@@ -106,7 +107,7 @@ const resume = [
             '• Provided support to the design engineers by redlining plot plans, applying for permits, and compiling submission documents',
             '• Acquired familiarity with the OPSD, Region of York, the City of Markham, and OTM Book 7 specification and drawing standards'
         ],
-        whatILearned: 'Something something else',
+        whatILearned: 'SCS Consulting Group is an employee-owned land development design firm with an emphasis on city and subdivision design. During my time at SCS, I was a part of the design team and worked on a variety of private and municipal design projects (ie. VMC).',
         colourCode: ['white', '#1E4561']
     },
     {
@@ -119,11 +120,9 @@ const resume = [
         experience: [
             '• Performed on-site concrete testing and asphalt sampling while maintaining an accurate record of test and sample results',
             '• Provided support and coordinated the hours and work schedule for 12 engineering technicians',
-            '• Restored abused sampling equipment to a working state, saving over $3000 in replacement costs'
+            '• Restored abused sampling equipment to a working state, saving over $5000 in replacement costs'
         ],
-        whatILearned: 'Something something else',
+        whatILearned: 'EXP is a top 25 full-service consulting engineering firm according to ENR (2022). During my time at EXP, I worked as a QA technician on the geotechnical testing team assisting in the testing of concrete, asphalt, and fill material.',
         colourCode: ['white', '#BF3331']
     }
 ]
-
-module.exports = {resume}
