@@ -20,6 +20,7 @@ This is my personal portfolio website completely made from scratch using react c
 The first iteration of the website was a react single page web application. The website had no routing and all the components were placed in root component. A simple gif of the site look and functionality can be seen below.
 
 **First Iteration of Personal Site**
+
 ![First Iteration](https://media.giphy.com/media/AL91lWxyXxtQoMvOM7/giphy.gif)
 
 ## Second Iteration (Updated Jan 2023)
