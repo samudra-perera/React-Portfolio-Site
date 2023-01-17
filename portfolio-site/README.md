@@ -65,7 +65,7 @@ After completing the project there are some optimization we would do.
 
 3. (Sept 2022) - Ability to filter projects based on language used **(completed)**
 
-4. (Jan 2023) - New updated site needs to be further optimized for mobile screens
+4. (Jan 2023) - New updated site needs to be further optimized for mobile screens and the work experience component needs to reworked as well.
 
 5. (Jan 2023) - Create a more prompted feel for the project filtering system
 
@@ -74,6 +74,7 @@ After completing the project there are some optimization we would do.
 1. Adding a contact form, still unsure about the effectiveness of these forms 
 
 2. Adding a project page for each individual project card
+
 
 ## Lessons Learned:
 - (Sept 2022) - Building this project from scratch taught me a lot about UX/UI design. It also taught me the effectiveness of designing UI components and how it increases the modularity of the code. I also learned to add animations using React Hooks to enhance the experience of the visitor.  
